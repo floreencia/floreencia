@@ -1,0 +1,31 @@
+/* css center from http://stackoverflow.com/questions/19461521/how-to-center-text-horizontally-and-vertically*/
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+body {
+    background-color: white;
+    display: table;
+    vertical-align: middle;
+    text-align: center;
+    background-image: url('background.png');
+    background-repeat: repeat;
+}
+div {
+    display: table-cell;
+    vertical-align: middle;
+    color: #e11a1a;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px 0px #000;
+}
+#answer {
+    font-size: 1500%;
+    margin: -50px 0px -20px 0px;
+}
+#subtext {
+    font-size: 150%;
+}
+iframe {
+    visibility: hidden;
+}
