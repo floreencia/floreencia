@@ -1,7 +1,7 @@
 var its_bday;
 $(document).ready(function () {
     var today = moment().startOf('day');
-    var bday = moment({ year: today.year(), month: 4, day: 1 });
+    var bday = moment({ year: today.year(), month: 0, day: 21 });
     var past = bday.diff(today) < 0; //was the birthday this year already?
     if (past) {
         console.log("Bday was already this year!");
